@@ -31,7 +31,7 @@ The TFT RESET pin can be connected to the NodeMCU RST pin or 3.3V to free up a c
 # Firmware
 
 When compiling with Arduino IDE, make sure you already have library: https://github.com/Bodmer/TFT_eSPI
-Also copy file **ser_Setup.h** to **~/Documents/Arduino/libraries/TFT_eSPI** (directory is different in each operating system)
+Also copy file **User_Setup.h** to **~/Documents/Arduino/libraries/TFT_eSPI** (directory is different in each operating system)
 
 # Background
 
