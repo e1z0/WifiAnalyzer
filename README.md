@@ -28,6 +28,10 @@ WiFi Analyzer can help you to identify Wi-Fi problems, find the best channel or 
 
 The TFT RESET pin can be connected to the NodeMCU RST pin or 3.3V to free up a control pin. The NodeMCU D0 pin can be used for RST.
 
+# Firmware
+
+When compiling with Arduino IDE, make sure you already have library: https://github.com/Bodmer/TFT_eSPI
+Also copy file **ser_Setup.h** to **~/Documents/Arduino/libraries/TFT_eSPI** (directory is different in each operating system)
 
 # Background
 
@@ -36,6 +40,6 @@ It's based on https://github.com/moononournation/ESP8266WiFiAnalyzer with modifi
 
 # Another similar projects and sources
 
-https://github.com/Bodmer/TFT_eSPI Library used in this project
-https://github.com/headHUB/ESP8266WiFiAnalyzer ESP32/8266 using ILI9341 320x240 screen (father of wifi analyzer on esp devices)
-https://github.com/theuwis/ESP8266-WiFi-Analyzer Original source of this project
+* https://github.com/Bodmer/TFT_eSPI Library used in this project
+* https://github.com/headHUB/ESP8266WiFiAnalyzer ESP32/8266 using ILI9341 320x240 screen (father of wifi analyzer on esp devices)
+* https://github.com/theuwis/ESP8266-WiFi-Analyzer Original source of this project
